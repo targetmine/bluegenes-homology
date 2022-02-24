@@ -1,10 +1,11 @@
 #  Homology info viewer
 
-Homology info viewer is a tool made for [BlueGenes](http://bluegenes.apps.intermine.org) following BlueGenes Tool API.
-Add more description of your tool here! :)
+Homology information summary is a tool made for [BlueGenes](http://bluegenes.apps.intermine.org) following BlueGenes Tool API.
+This tool summarizes protein orthologs compiled by TargetMine and also homology data from other data sources including [KEGG Orthology (KO)](https://www.genome.jp/kegg/ko.html), [HomoloGene](https://www.ncbi.nlm.nih.gov/homologene), and the orthologs from annotation pipeline in NCBI in the tables.
 
-## Licence
+## License
 
+The MIT License - see [LICENSE](LICENSE)
 
 ### To set up locally for development
 

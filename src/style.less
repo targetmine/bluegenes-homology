@@ -17,5 +17,74 @@
   // this is just an example class for root div element, you may modify or delete it as per your usecase
   .rootContainer {
     padding: 10px;
+    .homologyTable {
+      width: 100%;
+      border-spacing: 0;
+      
+      th {
+        background-color: #EBEBEB;
+        text-align: left;
+        font-size: medium;
+      }
+
+      td {
+        color: #333;
+        font-size: medium;
+      }
+
+      tr.odd {
+        background-color: #FAFAFA;
+      }
+
+      th.header {
+        color: #000;
+        font-weight: bold;
+        font-size: larger;
+      }
+
+      td.noData {
+        padding: 12px;
+        color: #666;
+        font-style: italic;
+      }
+  
+    }
+
+    .naviLink {
+      color: #33C;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .naviLink:hover {
+      color: #33C;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .dataSource {
+      padding: 0 3px; 
+      font-weight: bold; 
+      color: white; 
+      margin-right: 3px;
+      cursor: default;
+    }
+
+    .gene {
+      background-color: #336699; 
+    }
+
+    .kegg {
+      background-color: #A70158; 
+    }
+    
+    .homolo {
+      background-color: #669933; 
+    }
+
+    .footNote {
+      margin: 12px;
+    }
+
   }
 }

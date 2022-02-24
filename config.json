@@ -6,7 +6,7 @@
     "js" : "dist/bundle.js"
   },
   "toolName" : {
-    "human" :"Homology info viewer",
+    "human" :"Homology information summary",
     "cljs" :"bluegenesToolHomology"    
   },
   "version": 2

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    Homology info viewer
+    Homology information summary
   </title>
 
   <!-- You can assume imjs is on the window.  -->
@@ -34,7 +34,7 @@
   <script>
     window.onload = function() {
     	// InterMine service, including URL and optionally token.
-      var imService = { root: 'https://www.humanmine.org/humanmine' };
+      var imService = { root: 'https://targetmine.mizuguchilab.org/targetmine' };
 	    // The element to attach the viewer to. Must be an existing DOM element.
     	var elem = document.getElementById('yourDiv'),
         // We use imjs to acquire the example data for initializing the tool,
@@ -43,7 +43,8 @@
         getDataForTool = function() {
           var service = new imjs.Service(imService);
           // You can change this to a different object type and identifier.
-          return service.lookup('Gene', 'GATA1');
+          return service.lookup('Gene', '255738');
+          // return service.lookup('Gene', '5182');
         },
     		toolState = {}, // To be confirmed how we use this.
         navigate = function(type, data, mine) {
